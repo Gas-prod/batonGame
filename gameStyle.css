@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+html, body, .cadre
+{
+    width: 100%;
+    height: 100%;
+}
+.cadre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.batons
+{
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+.baton
+{
+    width: calc(100% / 29);
+    height: 100%;
+    background-color: red;
+}
+.touch
+{
+    width: calc(100% / 29);
+    height: 100%;
+}
+.touch:hover
+{
+    background-color: blue;
+}
+
+@media(orientation: portrait)
+{
+    .batons
+    {
+        flex-direction: column;
+    }
+    .baton
+    {
+        width: 100%;
+        height: calc(100% / 29);
+    }
+    .touch
+    {
+        width: 100%;
+        height: calc(100% / 29);
+    }
+}
