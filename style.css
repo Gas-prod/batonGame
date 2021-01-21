@@ -56,6 +56,7 @@ html, body
     transition: all 0.25s;
     border-radius: 25px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 .credits:hover
 {
@@ -87,6 +88,7 @@ html, body
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
 .start-button:hover
 {
@@ -131,6 +133,7 @@ html, body
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.15s;
+    -webkit-tap-highlight-color: transparent;
 }
 .exit-img
 {
@@ -169,6 +172,7 @@ html, body
     transition: all 0.15s;
     outline: none;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 .social-link:hover
 {
@@ -201,6 +205,7 @@ html, body
     padding-bottom: 8px;
     animation-duration: 0.15s;
     animation-name: anim-2;
+    -webkit-tap-highlight-color: transparent;
 }
 .insta-links
 {
@@ -224,6 +229,7 @@ html, body
     border-radius: 7px;
     font-size: 1.3em;
     transition: all 0.15s;
+    -webkit-tap-highlight-color: transparent;
 }
 .insta-link:hover
 {
